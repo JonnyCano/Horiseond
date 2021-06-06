@@ -22,7 +22,7 @@ body {
 
 .header h1 {
     display: inline-block;
-    font-size: 48rem;
+    /* font-size: 100vh; */
 }
 
 .header h1 .seo {
@@ -202,4 +202,21 @@ p {
 
 .footer h2 {
     font-size: 20px;
+}
+
+/* flex-box with elements in it */
+.flex-container {
+    /* create flex-box */
+    display: flex;
+    /* move to next line */
+    flex-wrap: wrap;
+    /* put space between unused items */
+    justify-content: space-between;
+    width: 100%;
+}
+
+/* the elements inside */
+.flex-item {
+    /* set an elements width and space-between them */
+    width: 45%;
 }
