@@ -1,2 +1,5 @@
 # Code Refactor Starter Code
-added links to the header <a>'s
+1. added links to the header <a>'s
+
+2. applied alt attribute to the images
+
